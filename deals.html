@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
-    content="ExploreSV — Viajes y experiencias turísticas en El Salvador. Donde la historia y la aventura se encuentran.">
+    content="ExploreSV — Paquetes turísticos en El Salvador. Descubre nuestras mejores ofertas y destinos.">
   <link rel="icon" href="logo.jpeg" type="image/jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-  <title>ExploreSV</title>
+  <title>ExploreSV — Paquetes</title>
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css">
@@ -39,12 +39,9 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="">
+              <img src="assets/images/logo.png" alt="ExploreSV">
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="index.html">Inicio</a></li>
               <li><a href="about.html">Nosotros</a></li>
@@ -54,7 +51,6 @@
             <a class='menu-trigger'>
               <span>Menu</span>
             </a>
-            <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
@@ -62,18 +58,21 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
+  <!-- ***** Page Heading Start ***** -->
   <div class="page-heading">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h4>Discover Our Weekly Offers</h4>
-          <h2>Amazing Prices &amp; More</h2>
-          <div class="border-button"><a href="about.html">Discover More</a></div>
+          <h4>Explora El Salvador con nosotros</h4>
+          <h2>Paquetes y Precios</h2>
+          <div class="border-button"><a href="about.html">Conocer más</a></div>
         </div>
       </div>
     </div>
   </div>
+  <!-- ***** Page Heading End ***** -->
 
+  <!-- ***** Filtro de Búsqueda Start ***** -->
   <div class="search-form">
     <div class="container">
       <div class="row">
@@ -81,41 +80,35 @@
           <form id="search-form" name="gs" method="submit" role="search" action="#">
             <div class="row">
               <div class="col-lg-2">
-                <h4>Sort Deals By:</h4>
+                <h4>Filtrar por:</h4>
               </div>
               <div class="col-lg-4">
                 <fieldset>
-                  <select name="Location" class="form-select" aria-label="Default select example" id="chooseLocation"
-                    onChange="this.form.click()">
-                    <option selected>Destinations</option>
-                    <option type="checkbox" name="option1" value="Italy">Italy</option>
-                    <option value="France">France</option>
-                    <option value="Switzerland">Switzerland</option>
-                    <option value="Thailand">Thailand</option>
-                    <option value="Australia">Australia</option>
-                    <option value="India">India</option>
-                    <option value="Indonesia">Indonesia</option>
-                    <option value="Malaysia">Malaysia</option>
-                    <option value="Singapore">Singapore</option>
+                  <select name="Location" class="form-select" id="chooseLocation">
+                    <option selected>Destino</option>
+                    <option value="ruta-flores">Ruta de las Flores</option>
+                    <option value="coatepeque">Lago de Coatepeque</option>
+                    <option value="volcan-santa-ana">Volcán de Santa Ana</option>
+                    <option value="suchitoto">Suchitoto</option>
+                    <option value="el-tunco">Playa El Tunco</option>
+                    <option value="joya-ceren">Joya de Cerén</option>
                   </select>
                 </fieldset>
               </div>
               <div class="col-lg-4">
                 <fieldset>
-                  <select name="Price" class="form-select" aria-label="Default select example" id="choosePrice"
-                    onChange="this.form.click()">
-                    <option selected>Price Range</option>
-                    <option value="100">$100 - $250</option>
-                    <option value="250">$250 - $500</option>
-                    <option value="500">$500 - $1,000</option>
-                    <option value="1000">$1,000 - $2,500</option>
-                    <option value="2500+">$2,500+</option>
+                  <select name="Price" class="form-select" id="choosePrice">
+                    <option selected>Rango de Precio</option>
+                    <option value="20">$20 - $30</option>
+                    <option value="30">$30 - $45</option>
+                    <option value="45">$45 - $60</option>
+                    <option value="60">$60+</option>
                   </select>
                 </fieldset>
               </div>
               <div class="col-lg-2">
                 <fieldset>
-                  <button class="border-button">Search Results</button>
+                  <button class="border-button">Buscar</button>
                 </fieldset>
               </div>
             </div>
@@ -124,169 +117,241 @@
       </div>
     </div>
   </div>
+  <!-- ***** Filtro de Búsqueda End ***** -->
 
+  <!-- ***** Paquetes Disponibles Start ***** -->
   <div class="amazing-deals">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading text-center">
-            <h2>Best Weekly Offers In Each City</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <h2>Nuestros Paquetes Disponibles</h2>
+            <p>Todos los paquetes incluyen transporte desde San Salvador, guía turístico y seguro de viaje.</p>
           </div>
         </div>
+
+        <!-- PAQUETE 1: Ruta de las Flores -->
         <div class="col-lg-6 col-sm-6">
           <div class="item">
             <div class="row">
               <div class="col-lg-6">
                 <div class="image">
-                  <img src="assets/images/deals-01.jpg" alt="">
+                  <img src="assets/images/deals-01.jpg" alt="Ruta de las Flores">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
                 <div class="content">
-                  <span class="info">*Limited Offer Today</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <span class="info">⭐ Más Popular</span>
+                  <h4>Ruta de las Flores</h4>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
-                      <span class="list">5 Days</span>
+                      <span class="list">2 Días</span>
                     </div>
                     <div class="col-6">
-                      <i class="fa fa-map"></i>
-                      <span class="list">Daily Places</span>
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$45/persona</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>Juayúa, Apaneca, Ataco y Salcoatitán. Gastronomía, artesanías y montañas.</p>
                   <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <a href="reservation.html">Reservar</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- PAQUETE 2: Lago de Coatepeque -->
         <div class="col-lg-6 col-sm-6">
           <div class="item">
             <div class="row">
               <div class="col-lg-6">
                 <div class="image">
-                  <img src="assets/images/deals-02.jpg" alt="">
+                  <img src="assets/images/deals-02.jpg" alt="Lago de Coatepeque">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
                 <div class="content">
-                  <span class="info">*Today & Tomorrow Only</span>
-                  <h4>Venezia Italy Ipsum</h4>
+                  <span class="info">🌊 Aventura Acuática</span>
+                  <h4>Lago de Coatepeque</h4>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
-                      <span class="list">5 Days</span>
+                      <span class="list">1 Día</span>
                     </div>
                     <div class="col-6">
-                      <i class="fa fa-map"></i>
-                      <span class="list">Daily Places</span>
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$35/persona</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>Kayak, natación y almuerzo a orilla del lago volcánico más bello de C.A.</p>
                   <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <a href="reservation.html">Reservar</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- PAQUETE 3: Volcán de Santa Ana -->
         <div class="col-lg-6 col-sm-6">
           <div class="item">
             <div class="row">
               <div class="col-lg-6">
                 <div class="image">
-                  <img src="assets/images/deals-03.jpg" alt="">
+                  <img src="assets/images/deals-03.jpg" alt="Volcán de Santa Ana">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
                 <div class="content">
-                  <span class="info">**Undefined</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <span class="info">🏔️ Senderismo Extremo</span>
+                  <h4>Volcán de Santa Ana</h4>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
-                      <span class="list">5 Days</span>
+                      <span class="list">1 Día</span>
                     </div>
                     <div class="col-6">
-                      <i class="fa fa-map"></i>
-                      <span class="list">Daily Places</span>
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$55/persona</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>Sube al volcán más alto de El Salvador. Guía certificado y desayuno incluido.</p>
                   <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <a href="reservation.html">Reservar</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- PAQUETE 4: Suchitoto -->
         <div class="col-lg-6 col-sm-6">
           <div class="item">
             <div class="row">
               <div class="col-lg-6">
                 <div class="image">
-                  <img src="assets/images/deals-04.jpg" alt="">
+                  <img src="assets/images/deals-04.jpg" alt="Suchitoto">
                 </div>
               </div>
               <div class="col-lg-6 align-self-center">
                 <div class="content">
-                  <span class="info">*Offer Until 24th March</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <span class="info">🏛️ Tour Cultural</span>
+                  <h4>Suchitoto</h4>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
-                      <span class="list">5 Days</span>
+                      <span class="list">1 Día</span>
                     </div>
                     <div class="col-6">
-                      <i class="fa fa-map"></i>
-                      <span class="list">Daily Places</span>
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$30/persona</span>
                     </div>
                   </div>
-                  <p>This free CSS template is provided by Template Mo website.</p>
+                  <p>Ciudad colonial declarada Patrimonio. Recorrido guiado, artesanías y almuerzo típico.</p>
                   <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <a href="reservation.html">Reservar</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-12">
-          <ul class="page-numbers">
-            <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-          </ul>
+
+        <!-- PAQUETE 5: Playa El Tunco -->
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/deals-01.jpg" alt="Playa El Tunco">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">🏖️ Sol y Playa</span>
+                  <h4>Playa El Tunco</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">1 Día</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$25/persona</span>
+                    </div>
+                  </div>
+                  <p>La playa favorita del surf en El Salvador. Zona VIP y mariscos frescos incluidos.</p>
+                  <div class="main-button">
+                    <a href="reservation.html">Reservar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- PAQUETE 6: Joya de Cerén -->
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/deals-02.jpg" alt="Joya de Cerén">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">🏺 Patrimonio UNESCO</span>
+                  <h4>Joya de Cerén</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">Medio Día</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-dollar-sign"></i>
+                      <span class="list">$20/persona</span>
+                    </div>
+                  </div>
+                  <p>La "Pompeya de América". Sitio arqueológico maya Patrimonio de la Humanidad.</p>
+                  <div class="main-button">
+                    <a href="reservation.html">Reservar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
+  <!-- ***** Paquetes Disponibles End ***** -->
 
+  <!-- ***** Call to Action Start ***** -->
   <div class="call-to-action">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <h2>Are You Looking To Travel ?</h2>
-          <h4>Make A Reservation By Clicking The Button</h4>
+          <h2>¿Listo para tu próxima aventura?</h2>
+          <h4>Haz tu reservación ahora y vive la experiencia ExploreSV</h4>
         </div>
         <div class="col-lg-4">
           <div class="border-button">
-            <a href="reservation.html">Book Yours Now</a>
+            <a href="reservation.html">Reservar Ahora</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- ***** Call to Action End ***** -->
 
+  <!-- ***** Footer Start ***** -->
   <footer>
     <div class="container">
       <div class="row">
@@ -311,19 +376,17 @@
         </div>
         <div class="col-lg-12"
           style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 15px;">
-          <p style="text-align: center;">© 2025 ExploreSV. Todos los derechos reservados. | Proyecto de Emprendedurismo.
-          </p>
+          <p style="text-align: center;">© 2025 ExploreSV. Todos los derechos reservados. | Proyecto de
+            Emprendedurismo.</p>
         </div>
       </div>
     </div>
   </footer>
-
+  <!-- ***** Footer End ***** -->
 
   <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/wow.js"></script>
@@ -339,7 +402,8 @@
   </script>
 
   <!-- Botón de WhatsApp Flotante -->
-  <a href="https://wa.me/503XXXXXXXX?text=Hola%2C%20me%20interesa%20un%20tour%20con%20ExploreSV" target="_blank" style="position: fixed; bottom: 25px; right: 25px; background-color: #25D366; 
+  <a href="https://wa.me/503XXXXXXXX?text=Hola%2C%20me%20interesa%20un%20tour%20con%20ExploreSV" target="_blank"
+    style="position: fixed; bottom: 25px; right: 25px; background-color: #25D366; 
           color: #fff; width: 60px; height: 60px; border-radius: 50%; 
           display: flex; align-items: center; justify-content: center; 
           font-size: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); 

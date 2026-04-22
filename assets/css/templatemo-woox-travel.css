@@ -403,7 +403,7 @@ Header Style
 
 .background-header {
   background-color: var(--color-verde-torogoz) !important;
-  height: 70px !important;
+  height: 140px !important;
   position: fixed !important;
   top: 0 !important;
   left: 0;
@@ -418,7 +418,7 @@ Header Style
 .header-area {
   background-color: var(--color-verde-torogoz);
   position: absolute;
-  height: 70px;
+  height: 140px;
   top: 0;
   left: 0;
   right: 0;
@@ -449,12 +449,14 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 159px;
-  margin-top: 15px;
+  height: 130px;
+  width: auto;
+  margin-top: 5px;
 }
 
 .background-header .main-nav .logo img {
-  width: 159px;
+  height: 125px;
+  width: auto;
 }
 
 .header-area .main-nav .nav {
